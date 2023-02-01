@@ -27,3 +27,6 @@ As for the Process id, it will actually be auto selected even there are multiple
 # What games does it work on?
 It will work on any game built using Unreal Engine no matter the version used. 
 This source or dumper is not intended to be any game specific, its for educational purposes, so people can learn.
+
+# Want to dump a Android Mobile Game?
+GO here for Android Mobile Dumper - https://github.com/RealAscarre/UE4-Mobile-Dumper
