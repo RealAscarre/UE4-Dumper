@@ -4,7 +4,7 @@ Dump offsets and functions for games made using Unreal Engine
 # What it does exactly?
 1. It regenerates and dumps all strings from the games using the Global Names pointer (GNames/FNames).
 2. It dumps all objects present in the game using the Global Names (GNames/FNames) & Global Object(GUObjectArray).
-3. It dumps the offsets and function address using Global Names (GNames/FNames) and Global Object(GUObjectArray) or using Global World (UWOrld/GWorld).
+3. It dumps the offsets and function address using Global Names (GNames/FNames) and Global Object(GUObjectArray) or using Global World (UWorld/GWorld).
 4. It also dumps the Actors present as entity in the game to check the integrity of the Global World pointer.
 
 # What to do with the outputs?
