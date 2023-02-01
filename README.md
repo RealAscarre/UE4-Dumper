@@ -11,8 +11,12 @@ Dump offsets and functions for games made using Unreal Engine
 Its upto you how you want to use the dump files. For general knowledge, the output files are used as reference to reverse engineer the game to access non-accessable options/ unfair advantages.
 
 # How to build this source?
-This was made using VS 2017 (Year - 2022) and can be easily rebuild. 
-Change the offsets required, most games use the offsets provided for dumping and you just need to update the Global pointers but in case it doesn't dump correctly consider making somee changes to the pre initialized offsets in 'Offsets.h' file
+This was made using VS 2017 (Year - 2022) and can be easily rebuild.
+~ Steps
+1. Change the offsets required, most games use the offsets provided for dumping and you just need to update the Global pointers but in case it doesn't dump correctly consider making somee changes to the pre initialized offsets in 'Offsets.h' file
+2. Build in Release & x64 mode.
+3. Open game and Run dumper.
+4. Follow on-screen commands.
 
 # Failed to get Base Address of games?
 1. Use a driver to read memory rather using the winapi callbacks. In case you don't have a driver or don't know about making one refer to youtube/github for public sources.
