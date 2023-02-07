@@ -280,7 +280,7 @@ namespace Offsets {
         UWorldToPersistentLevel = 0x30;
 
         //Class: ULevel
-        ULevelToAActors = 0x78;
+        ULevelToAActors = 0x98;
         ULevelToAActorsCount = ULevelToAActors + PointerSize;
     }
 }
