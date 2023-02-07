@@ -219,12 +219,12 @@ namespace Offsets {
         FNameEntryToNameString = 0x10;
 
         //Class: FUObjectArray
-        FUObjectArrayToTUObjectArray = 0x10;
-
-        //Class: TUObjectArray
-        TUObjectArrayToNumElements = 0x0;//Sometimes 0xC
+        FUObjectArrayToTUObjectArray = 0x0;//Sometimes 0xC
         FUObjectItemPadd = 0x0;
         FUObjectItemSize = 0x18;
+
+        //Class: TUObjectArray
+        TUObjectArrayToNumElements = 0x10;
 
         //Class: UObject
         UObjectToInternalIndex = 0xC;
