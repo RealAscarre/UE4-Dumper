@@ -131,7 +131,7 @@ namespace Offsets {
         FNameEntryToString = 0x2;
 
         //Class: FUObjectArray
-        FUObjectArrayToTUObjectArray = 0x10;
+        FUObjectArrayToTUObjectArray = 0x0;//Sometimes 0x10
         FUObjectItemPadd = 0x0;
         FUObjectItemSize = 0x18;
 
@@ -222,7 +222,7 @@ namespace Offsets {
         FUObjectArrayToTUObjectArray = 0x10;
 
         //Class: TUObjectArray
-        TUObjectArrayToNumElements = 0xC;
+        TUObjectArrayToNumElements = 0x0;//Sometimes 0xC
         FUObjectItemPadd = 0x0;
         FUObjectItemSize = 0x18;
 
