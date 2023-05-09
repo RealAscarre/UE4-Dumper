@@ -33,6 +33,7 @@ namespace Offsets {
     uintptr_t FNamePoolToBlocks;
 
     //Class: FNameEntry
+    uintptr_t FNameEntryHeader;
     uintptr_t FNameEntryToLenBit;
     uintptr_t FNameEntryToString;
 
@@ -127,6 +128,7 @@ namespace Offsets {
         FNamePoolToBlocks = 0x10;
 
         //Class: FNameEntry
+        FNameEntryHeader = 0x0;//Not needed for most games
         FNameEntryToLenBit = 0x6;
         FNameEntryToString = 0x2;
 
