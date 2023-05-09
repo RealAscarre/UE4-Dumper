@@ -13,7 +13,7 @@ Its upto you how you want to use the dump files. For general knowledge, the outp
 # How to build this source?
 This was made using VS 2017 (Year - 2022) and can be easily rebuild.
 ~ Steps
-1. Change the offsets required, most games use the offsets provided for dumping and you just need to update the Global pointers but in case it doesn't dump correctly consider making somee changes to the pre initialized offsets in 'Offsets.h' file
+1. Change the offsets required, most games use the offsets provided for dumping and you just need to update the Global pointers but in case it doesn't dump correctly consider making some changes to the pre initialized offsets in 'Offsets.h' file
 2. Build in Release & x64 mode.
 3. Open game and Run dumper.
 4. Follow on-screen commands.
