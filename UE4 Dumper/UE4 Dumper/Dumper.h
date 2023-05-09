@@ -10,7 +10,7 @@ void DumpBlocks(ofstream& Dump, UINT32& count, uintptr_t FNamePool, UINT32 block
     UINT16 Offset = 0;
     while (It < End) {
         uintptr_t FNameEntry = It;
-        INT16 FNameEntryHeader = Read<INT16>(FNameEntry);
+        INT16 FNameEntryHeader = Read<INT16>(FNameEntry + Offsets::FNameEntryHeader);
         int StrLength = FNameEntryHeader >> Offsets::FNameEntryToLenBit;
         if (StrLength) {
             bool wide = FNameEntryHeader & 1;
