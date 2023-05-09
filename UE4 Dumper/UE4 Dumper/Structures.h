@@ -23,7 +23,7 @@ string GetFNameFromID(UINT32 index) {
         uintptr_t NamePoolChunk = Read<uintptr_t>(FNamePool + Offsets::FNamePoolToBlocks + (Block * Offsets::PointerSize));
         uintptr_t FNameEntry = NamePoolChunk + (Offsets::FNameStride * Offset);
 
-        INT16 FNameEntryHeader = Read<INT16>(FNameEntry);
+        INT16 FNameEntryHeader = Read<INT16>(FNameEntry + Offsets::FNameEntryHeader);
         uintptr_t StrPtr = FNameEntry + Offsets::FNameEntryToString;
         int StrLength = FNameEntryHeader >> Offsets::FNameEntryToLenBit;
 
